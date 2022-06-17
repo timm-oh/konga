@@ -17,8 +17,4 @@ RUN apk upgrade --update \
     && mkdir /app/kongadata /app/.tmp \
     && chown -R 1200:1200 /app/views /app/kongadata /app/.tmp
 
-EXPOSE 1337
-
-VOLUME /app/kongadata
-
 ENTRYPOINT ["/app/start.sh"]

@@ -2,6 +2,9 @@
   "name": "kongadmin",
   "version": "0.14.9",
   "description": "Kong admin GUI",
+  "engines": {
+    "node": "12.16"
+  },
   "keywords": [
     "sails.js",
     "backend",
